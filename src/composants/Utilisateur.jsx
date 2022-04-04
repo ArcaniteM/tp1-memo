@@ -14,7 +14,7 @@ export default function Utilisateur({utilisateur}) {
         variant="outlined"
         size="small"
         className="btn-deconnexion"
-        onClick={() => alert('À compléter')}
+        // onClick={() => alert('À compléter')}
       >
         <div className="btn-deconnexion" onClick={deconnexion}>Déconnexion</div>
       </Button>
