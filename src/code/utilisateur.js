@@ -50,7 +50,7 @@ function sauvegarderProfil(util) {
     // Voir la documentation : 
     // https://firebase.google.com/docs/firestore/manage-data/add-data?hl=en&authuser=0
     setDoc(
-        doc(bdFirestore, 'tp1-memo', util.uid), 
+        doc(bdFirestore, 'memo', util.uid), 
         {nom: util.displayName, courriel: util.email}, 
         {merge: true}
     );

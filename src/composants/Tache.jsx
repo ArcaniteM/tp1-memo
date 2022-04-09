@@ -1,11 +1,11 @@
 import './Tache.scss';
 
-export default function Tache() {
+export default function Tache({id, titre, dateModif}) {
   return (
     <div className="Tache">
       Basculer
-      <span className="texte">Texte de la tâche</span>
-      <span className="date">(date formatée)</span>
+      <span className="texte">{titre}</span>
+      <span className="date">{dateModif.seconds}</span>
       Supprimer
     </div>
   );
