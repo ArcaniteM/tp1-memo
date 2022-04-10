@@ -19,8 +19,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "preghdeploy": "npm run build",
-    "ghdeploy": "gh-pages -d build"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "browserslist": {
     "production": [
@@ -35,5 +35,6 @@
     ]
   },
   "homepage-aide": "Avant de déployer sur GitHub Pages vous devez configurer correctement la propriété homepage ci-dessus : 1) retirer le suffixe '-inactif' de l'étiquette, et 2) remplacer le nom de compte et le nom de dépôt GitHub par les vôtres dans la valeur de la propriété.",
-  "homepage-inactif": "https://VOTRE_USERNAME_GITHUB.github.io/VOTRE_NOM_DE_DEPOT_GITHUB/"
+  "homepage": "https://arcanitem.github.io/tp1-memo/",
+  "homepage-inactif": "https://arcanitem.github.io/tp1-memo/"
 }
